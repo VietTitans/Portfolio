@@ -1,8 +1,27 @@
 * {
+    flex: 1;
+    flex-direction: column;
     color:white
+}
+
+/* TODO: Figure out how to select navbar and edit */
+.navbar {
+    flex-direction: row;
+    justify-content: end;
+    text-decoration: none;
 }
 
 body {
     background-color: black;
     color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    width: 50;
 }
