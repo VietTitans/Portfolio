@@ -6,38 +6,64 @@
     <link rel ="stylesheet" href="style.css">
     <title>Matt's portfolio</title>
 </head>
-<div id="navbar">
-    <a href="index.html" class="active">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About me</a>
-    <a href="contact.html">Contact</a>
-</div>
+<header>
+    <div class="container-header">
+        <div class="header-left">
+            <a href="index.html"><h3>Portfolio</h3></a>
+        </div>
+        <div class="header-right">
+            <a href="" rel="noopener noreferrer">Projects</a>
+            <a href="" rel="noopener noreferrer">About me</a>
+            <a href="" rel="noopener noreferrer">Contact</a>
+        </div>
+    </div>
+</header>
 <body>
-    <!-- Introduction -->
-    <section id="container">
-        <div class="container">
-            <div>
-                <h1>Matt Nhu Dinh</h1>
-            </div>
-            <div>
-                <h2>Software developer</h2>
-            </div>
+    <section id="section-1">
+        <div class="section-1-left">
+            <h1> Matt Nhu Dinh</h1>
+            <p>Software developer</p>
+        </div>
+        <div class="section-1-right">
+            <img src="./image/evilEyeBirdHouseWithLens.png" alt="Picture of me" height="310" width="310">
         </div>
     </section>
-    
     <!-- Projects section -->
-    <section id="container">
-        <h1>Projects</h1>
+    <section>
+        <section id="section-2">
+            <h2>Projects</h2>
+                <div class="img-container">
+                    <div class="info">
+                        <img src="./image/lens.png" alt="Close up on a camera lens" height="200" width="200"/>
+                        <div class="text">Betting Prediction Model</div>
+                    </div>
+                    <div class="info">
+                        <img src="./image/sync.png" alt="Folder with a upload arrow" height="200" width="200"/>
+                        <div class="text">CurioScroll</div>
+                    </div>
+                    <div class="info">
+                        <img src="./image/solar.png" alt="Solar-power" height="200" width="200"/>
+                        <div class="text">Landing Page</div>
+                    </div>
+                </div>
+        </section>
     </section>
-    
     <!-- About section -->
-    <section id="container">
-        <h1>About me</h1>
+    <section id="section-3">
+        <div class="about-section-1">
+            <h1>Who am I?</h1>
+            <p>With a Academy Profession in Computer Science and doing martial arts in my spare time, I can confidently say I am a master in dad jokes</p>
+        </div>
     </section>
-
     <!-- Contact section-->
-    <section id="container">
-        <h1>Contact</h1>
+    <section id="section-4">
+        <div class="contact">
+            <h1>Let's collaborate!</h1>
+            <p>Contact me at LinkedIn or send me an email</p>
+        </div>
     </section>
+    <footer>
+        <p>Made by MD</p>
+    </footer>
 </body>
 </html>
